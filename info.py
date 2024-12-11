@@ -43,8 +43,8 @@ CODE = (environ.get('CODE', 'https://graph.org/file/02e7ecc3e2693b481b914.jpg'))
 REFER_PICS = (environ.get("REFER_PICS", "https://graph.org/file/1c1a3cb814cd719ae3bd3.jpg https://graph.org/file/1a2e64aee3d4d10edd930.jpg")).split()
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'shareus.io'))
-STREAM_API = (environ.get('STREAM_API', ''))
+STREAM_SITE = (environ.get('STREAM_SITE', 'linkco.site'))
+STREAM_API = (environ.get('STREAM_API', '3225d5cf18143ae8921204b4ed9817f7939664b2'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/How_to_Download_7x/32'))
 
 # Command
@@ -101,8 +101,8 @@ VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( F
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/How_to_Download_7x/26') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shareus.io')
-SHORTLINK_API = environ.get('SHORTLINK_API', '1Jh0re6olVUHnr3eEyFG7NZX7RF3')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkco.site')
+SHORTLINK_API = environ.get('SHORTLINK_API', '3225d5cf18143ae8921204b4ed9817f7939664b2')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
