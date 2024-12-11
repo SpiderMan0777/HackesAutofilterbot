@@ -11,7 +11,7 @@ class script(object):
 
     ABOUT_TXT = """
 <b>❍ ᴍʏ ɴᴀᴍᴇ : <a href="https://t.me/">ꜱᴘɪᴅᴇʏ ᴍᴏᴠɪᴇ ʙᴏᴛ</a>
-❍ ᴄʀᴇᴀᴛᴏʀ : <a href="https://t.me/">мɪкєʏ</a>
+❍ ᴄʀᴇᴀᴛᴏʀ : <a href="https://t.me/">ꜱᴘɪᴅᴇʏ</a>
 ❍ ʟɪʙʀᴀʀʏ : <a href="https://pyrogram.org/">ᴘʏʀᴏɢʀᴀᴍ</a>
 ❍ ʟᴀɴɢᴜᴀɢᴇ : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ</a>
 ❍ ᴅᴀᴛᴀʙᴀꜱᴇ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a>
