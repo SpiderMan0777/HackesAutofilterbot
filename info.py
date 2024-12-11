@@ -97,7 +97,7 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002294764885')) #Log channel id 
 DUMP_CHNL = int(environ.get('DUMP_CHNL', '-1002294764885'))
 
 # Verify
-VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
+VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/How_to_Download_7x/26') # How to open tutorial link for verification
 
 # Others
@@ -160,7 +160,7 @@ URL = "https://{}/".format(FQDN) if ON_HEROKU or NO_PORT else \
     "https://{}/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
-SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
+SESSION_NAME = str(environ.get('SESSION_NAME', 'SpideyBot'))
 MULTI_CLIENT = False
 name = str(environ.get('name', 'LazyPrincess'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
