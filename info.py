@@ -147,7 +147,7 @@ QUALITIES = ["360P", "", "480P", "", "720P", "", "1080P", "", "1440P", "", "2160
 STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or Flase
 
 # Online Stream and Download
-NO_PORT = bool(environ.get('NO_PORT', False))
+NO_PORT = bool(environ.get('NO_PORT', True))
 APP_NAME = None
 if 'DYNO' in environ:
     ON_HEROKU = True
