@@ -97,7 +97,7 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002294764885')) #Log channel id 
 DUMP_CHNL = int(environ.get('DUMP_CHNL', '-1002294764885'))
 
 # Verify
-VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
+VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/How_to_Download_7x/26') # How to open tutorial link for verification
 
 # Others
@@ -109,7 +109,7 @@ MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 BOT_USERNAME = environ.get("BOT_USERNAME", "")
-BOT_NAME = environ.get("BOT_NAME", "𝐋ᴜᴄʏ")
+BOT_NAME = environ.get("BOT_NAME", "ʜᴀᴄᴋᴇʀ_x_ᴏꜰꜰɪᴄɪᴀʟ_777")
 BOT_ID = environ.get("BOT_ID", "")
 S_GROUP = environ.get('S_GROUP', "weebs_support")
 S_CHANNEL = environ.get('S_CHANNEL', "SPIDEYOFFICIAL777")
@@ -117,7 +117,7 @@ GRP_LNK = environ.get('GRP_LNK', 'https://t.me/SPIDEYOFFICIAL777')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/SPIDEYOFFICIAL777')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_to_Download_7x/32') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : ᴄᴏᴅᴇғʟɪx ʙᴏᴛs')
+MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : ʜᴀᴄᴋᴇʀ_x_ᴏꜰꜰɪᴄɪᴀʟ_777')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
