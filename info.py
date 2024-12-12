@@ -25,10 +25,10 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '28519661'))
-API_HASH = environ.get('API_HASH', 'd47c74c8a596fd3048955b322304109d')
-OWNER_ID = environ.get('OWNER_ID', '5518489725')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7669903655:AAHDQkGtUzbn5DzBQv3jisAxJiu4x0KMLKM")
+API_ID = int(environ.get('API_ID', '26967459'))
+API_HASH = environ.get('API_HASH', 'b71947dc4f2964519d8abdfb8b4873ac')
+OWNER_ID = environ.get('OWNER_ID', '7965267063')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7527365991:AAF8o91deJo8-yFSNlKQYTGtNg7B3Uw1Yv4")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -127,7 +127,7 @@ SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
-LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
+LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "True"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
@@ -147,7 +147,7 @@ QUALITIES = ["360P", "", "480P", "", "720P", "", "1080P", "", "1440P", "", "2160
 STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or Flase
 
 # Online Stream and Download
-NO_PORT = bool(environ.get('NO_PORT', True))
+NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
 if 'DYNO' in environ:
     ON_HEROKU = True
