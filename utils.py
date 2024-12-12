@@ -470,7 +470,7 @@ async def get_shortlink(chat_id, link):
     else:
         URL = SHORTLINK_URL
         API = SHORTLINK_API
-    if URL.startswith("shorturllink") or URL.startswith("terabox.in") or URL.startswith("urlshorten.in"):
+    if URL.startswith("linkco.site") or URL.startswith("terabox.in") or URL.startswith("linkco.site"):
         URL = SHORTLINK_URL
         API = SHORTLINK_API
     if URL == "api.linkco.site":
@@ -479,7 +479,7 @@ async def get_shortlink(chat_id, link):
         # if "http" == https: #if https == "http":
         #     https = "https"
         #     link = link.replace("http", https) #replacing http to https
-        # conn = http.client.HTTPSConnection("api.shareus.io")
+        # conn = http.client.HTTPSConnection("api.linkco.site")
         # payload = json.dumps({
         #   "api_key": "4c1YTBacB6PTuwogBiEIFvZN5TI3",
         #   "monetization": True,
@@ -708,7 +708,7 @@ async def send_all(bot, userid, files, ident, chat_id, user_name, query):
                                 InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                                 InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                             ],[
-                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/Hacker_x_official_777")
+                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/sewxiy")
                                 ]
                             ]
                         )
